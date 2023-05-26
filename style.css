@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+  background: #393636;
+}
+
+.l-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  margin-right: 50px;
+}
+
+.l-container .row-2 .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container-keyboard {
+  background-color: rgb(65, 63, 64);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.l-container > *,
+.r-container > * {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.r-container > * {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.r-container .box {
+  width: 60px;
+  min-height: 40px;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+.none {
+  visibility: hidden;
+}
+.box {
+  width: fit-content;
+  min-width: 40px;
+  height: auto;
+  min-height: 40px;
+  background-color: rgb(95, 93, 88);
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.h-full {
+  height: initial !important;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-4 {
+  flex: 8;
+  flex-basis: 100%;
+}
+
+.box:hover {
+  background-color: rgb(38, 38, 39);
+  cursor: pointer;
+}
+
+.btn-click {
+  background-color: green !important;
+}
+
+.container-layer {
+  background-color: #010a75;
+  width: auto;
+  border: 10px solid black;
+  color: #fff;
+  font-size: 40px;
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-container {
+  padding: 20px;
+}
